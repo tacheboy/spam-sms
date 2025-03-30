@@ -34,5 +34,5 @@ def visualize_data(file_path: str):
     plot_class_distribution(df)
 
 if __name__ == "__main__":
-    file_path = "../spam.csv"  # Update this path as needed
+    file_path = "./spam.csv"  # Update this path as needed
     visualize_data(file_path)
