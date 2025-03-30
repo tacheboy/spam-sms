@@ -51,7 +51,7 @@ def preprocess_data(file_path: str):
     return X, y
 
 if __name__ == "__main__":
-    file_path = "../spam.csv"  # Update this path as needed
+    file_path = "./spam.csv"  # Update this path as needed
     X, y = preprocess_data(file_path)
     print("Sample preprocessed messages:")
     print(X.head())
