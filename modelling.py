@@ -71,7 +71,7 @@ def main():
     """
     Main function to visualize data, preprocess it, and train/evaluate SMS spam models.
     """
-    file_path = "../spam.csv"  # Update this path as needed
+    file_path = "./spam.csv"  # Update this path as needed
 
     # Visualize data
     visualize_data(file_path)
